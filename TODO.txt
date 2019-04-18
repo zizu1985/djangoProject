@@ -1,2 +1,3 @@
 TODO:
 1. Zapisywanie informacje o polecenaych postach. Dodanie licznika o informacji ile razy post był już sharowany.
+2. Dodawanie tagów do posta
