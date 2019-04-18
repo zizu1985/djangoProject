@@ -32,6 +32,8 @@ class Post(models.Model):
     published = PublishedManager()
     objects = models.Manager()
     tags = TaggableManager()
+    # TODO - hide in Post Admin
+    sharecnt = models.IntegerField(default=0)
 
 # Sorting fields when accessing fields from database
     class Meta:
@@ -39,6 +41,10 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_sharecnt(self):
+        return self.sharecnt
+    get_sharecnt.short_description = '# of shared posts'
 
     def get_absolute_url(self):
         return reverse('blog:post_detail',args=[self.publish.year,self.publish.strftime('%m'),self.publish.strftime('%d'),self.slug])

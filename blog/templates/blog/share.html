@@ -7,7 +7,7 @@
 	    "{{ post.title }}" was successfully sent to {{ cd.to }}.
 	</p>
     {% else %}
-	<h1>Share "{{ post.title }}" by email</h1>
+	<h1>Share "{{ post.title }}" by email."</h1>
 	<form action="." method="post">
 	    {{ form.as_p }}
 	    {% crfs_token %}

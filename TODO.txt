@@ -1,3 +1,4 @@
-TODO:
-1. Zapisywanie informacje o polecenaych postach. Dodanie licznika o informacji ile razy post był już sharowany.
-2. Dodawanie tagów do posta
+TODO
+DONE - 1. Zapisywanie informacje o polecenaych postach. Dodanie licznika o informacji ile razy post był już sharowany.
+DONE - 2. Dodawanie tagow do posta.
+NEXT - 3. Retrieve posts by similarity.

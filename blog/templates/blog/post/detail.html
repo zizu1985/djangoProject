@@ -13,8 +13,9 @@
  {{ post.body|linebreaks }}
  <p>
     <a href="{% url "blog:post_share" post.id %}">
-	Share this post
+	Share this post.
     </a>
+     Post has been shared {{ post.sharecnt }} time{{ post.sharecnt|pluralize }} so far.
     <br />
     <a href="{% url "blog:post_list" %}">
 	Return to posts list
