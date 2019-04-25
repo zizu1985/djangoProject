@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'blog',
     'taggit',
+    'haystack',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -109,3 +110,12 @@ EMAIL_HOST_USER='tziss85@gmail.com'
 EMAIL_HOST_PASSWORD=os.environ['EMAIL_PASSWORD']
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
+
+# Haystack connection to solr
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
+        'URL': 'http://127.0.0.1:8983/solr/blog'
+    },
+}
+

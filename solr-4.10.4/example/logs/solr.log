@@ -1,0 +1,660 @@
+INFO  - 2019-04-24 21:07:43.717; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2019-04-24 21:07:43.767; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor D:\Materials\Python\djangoProject\solr-4.10.4\example\contexts at interval 0
+INFO  - 2019-04-24 21:07:43.816; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: D:\Materials\Python\djangoProject\solr-4.10.4\example\contexts\solr-jetty-context.xml
+INFO  - 2019-04-24 21:07:43.994; org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/D:/Materials/Python/djangoProject/solr-4.10.4/example/webapps/solr.war!/ to D:\Materials\Python\djangoProject\solr-4.10.4\example\solr-webapp\webapp
+INFO  - 2019-04-24 21:08:04.475; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2019-04-24 21:08:04.589; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2019-04-24 21:08:04.622; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2019-04-24 21:08:04.623; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2019-04-24 21:08:04.628; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2019-04-24 21:08:04.948; org.apache.solr.core.ConfigSolr; Loading container configuration from D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\solr.xml
+INFO  - 2019-04-24 21:08:05.495; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: D:\Materials\Python\djangoProject\solr-4.10.4\example\solr
+INFO  - 2019-04-24 21:08:05.510; org.apache.solr.core.CoreContainer; New CoreContainer 363509958
+INFO  - 2019-04-24 21:08:05.510; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2019-04-24 21:08:05.526; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2019-04-24 21:08:05.527; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2019-04-24 21:08:05.539; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2019-04-24 21:08:05.547; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2019-04-24 21:08:05.548; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2019-04-24 21:08:05.551; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2019-04-24 21:08:05.553; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2019-04-24 21:08:05.556; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2019-04-24 21:08:05.557; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2019-04-24 21:08:05.558; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2019-04-24 21:08:06.643; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2019-04-24 21:08:06.662; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2019-04-24 21:08:06.669; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2019-04-24 21:08:06.671; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2019-04-24 21:08:11.255; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath D:\Materials\Python\djangoProject\solr-4.10.4\example\solr
+INFO  - 2019-04-24 21:08:11.273; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\
+INFO  - 2019-04-24 21:08:11.274; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2019-04-24 21:08:11.281; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\'
+INFO  - 2019-04-24 21:08:11.418; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2019-04-24 21:08:11.425; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2019-04-24 21:08:11.426; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2019-04-24 21:08:11.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2019-04-24 21:08:11.428; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2019-04-24 21:08:11.429; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2019-04-24 21:08:11.433; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2019-04-24 21:08:11.436; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2019-04-24 21:08:11.437; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.438; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.439; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.440; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.446; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2019-04-24 21:08:11.447; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.448; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2019-04-24 21:08:11.448; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2019-04-24 21:08:11.449; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2019-04-24 21:08:11.450; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.451; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.452; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.453; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.454; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.460; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2019-04-24 21:08:11.462; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.463; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2019-04-24 21:08:11.464; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2019-04-24 21:08:11.466; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2019-04-24 21:08:11.467; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.470; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.473; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.474; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2019-04-24 21:08:11.475; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2019-04-24 21:08:11.476; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.484; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/dist/solr-cell-4.10.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.486; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.486; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2019-04-24 21:08:11.488; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2019-04-24 21:08:11.488; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2019-04-24 21:08:11.489; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2019-04-24 21:08:11.496; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2019-04-24 21:08:11.496; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2019-04-24 21:08:11.497; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2019-04-24 21:08:11.499; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/dist/solr-clustering-4.10.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.501; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2019-04-24 21:08:11.501; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2019-04-24 21:08:11.503; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/dist/solr-langid-4.10.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.509; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2019-04-24 21:08:11.510; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2019-04-24 21:08:11.511; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2019-04-24 21:08:11.513; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2019-04-24 21:08:11.515; org.apache.solr.core.SolrResourceLoader; Adding 'file:/D:/Materials/Python/djangoProject/solr-4.10.4/dist/solr-velocity-4.10.4.jar' to classloader
+INFO  - 2019-04-24 21:08:11.652; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2019-04-24 21:08:11.669; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2019-04-24 21:08:11.935; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2019-04-24 21:08:11.950; org.apache.solr.schema.IndexSchema; Reading Solr Schema from D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf\schema.xml
+INFO  - 2019-04-24 21:08:12.009; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2019-04-24 21:08:12.832; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2019-04-24 21:08:12.856; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2019-04-24 21:08:12.858; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2019-04-24 21:08:13.093; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2019-04-24 21:08:13.102; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2019-04-24 21:08:13.221; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\
+INFO  - 2019-04-24 21:08:13.409; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2019-04-24 21:08:13.423; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\, dataDir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\
+INFO  - 2019-04-24 21:08:13.430; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2019-04-24 21:08:13.440; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2019-04-24 21:08:13.442; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2019-04-24 21:08:13.470; org.apache.solr.core.CachingDirectoryFactory; return new directory for D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data
+INFO  - 2019-04-24 21:08:13.481; org.apache.solr.core.SolrCore; New index directory detected: old=null new=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\index/
+WARN  - 2019-04-24 21:08:13.482; org.apache.solr.core.SolrCore; [collection1] Solr index directory 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\index' doesn't exist. Creating new index...
+INFO  - 2019-04-24 21:08:13.501; org.apache.solr.core.CachingDirectoryFactory; return new directory for D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\index
+INFO  - 2019-04-24 21:08:13.884; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-24 21:08:13.885; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-24 21:08:13.893; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2019-04-24 21:08:13.893; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2019-04-24 21:08:13.894; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2019-04-24 21:08:13.903; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2019-04-24 21:08:13.903; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2019-04-24 21:08:14.011; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2019-04-24 21:08:14.024; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 21:08:14.024; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 21:08:14.025; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 21:08:14.026; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 21:08:14.036; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.037; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.040; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2019-04-24 21:08:14.040; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.041; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2019-04-24 21:08:14.046; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 21:08:14.047; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2019-04-24 21:08:14.048; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2019-04-24 21:08:14.050; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2019-04-24 21:08:14.051; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2019-04-24 21:08:14.052; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2019-04-24 21:08:14.053; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2019-04-24 21:08:14.053; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2019-04-24 21:08:14.059; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2019-04-24 21:08:14.065; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2019-04-24 21:08:14.069; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2019-04-24 21:08:14.101; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2019-04-24 21:08:14.106; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.108; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.115; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.116; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.118; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.121; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.122; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.123; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2019-04-24 21:08:14.157; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 21:08:14.165; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 21:08:14.167; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 21:08:14.169; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 21:08:14.175; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 21:08:14.217; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2019-04-24 21:08:14.218; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2019-04-24 21:08:14.240; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-24 21:08:14.241; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-24 21:08:14.265; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@23dfb8a[collection1] main
+INFO  - 2019-04-24 21:08:14.284; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf
+INFO  - 2019-04-24 21:08:14.285; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf}
+INFO  - 2019-04-24 21:08:14.295; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf
+INFO  - 2019-04-24 21:08:14.314; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf
+INFO  - 2019-04-24 21:08:14.316; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2019-04-24 21:08:14.320; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2019-04-24 21:08:14.323; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf
+INFO  - 2019-04-24 21:08:14.326; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf
+INFO  - 2019-04-24 21:08:14.327; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2019-04-24 21:08:14.340; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2019-04-24 21:08:14.342; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2019-04-24 21:08:14.344; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf
+INFO  - 2019-04-24 21:08:14.347; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf
+INFO  - 2019-04-24 21:08:14.355; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2019-04-24 21:08:14.359; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2019-04-24 21:08:14.372; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2019-04-24 21:08:14.374; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2019-04-24 21:08:14.396; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2019-04-24 21:08:14.415; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2019-04-24 21:08:14.421; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\collection1\conf\elevate.xml
+INFO  - 2019-04-24 21:08:18.999; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2019-04-24 21:08:18.999; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@23dfb8a[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2019-04-24 21:08:19.000; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2019-04-24 21:08:19.007; org.apache.solr.servlet.SolrDispatchFilter; user.dir=D:\Materials\Python\djangoProject\solr-4.10.4\example
+INFO  - 2019-04-24 21:08:19.007; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2019-04-24 21:08:19.069; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2019-04-24 21:08:19.086; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=80 
+INFO  - 2019-04-24 21:08:19.087; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2019-04-24 21:08:19.087; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2019-04-24 21:08:19.088; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2019-04-24 21:08:19.089; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@23dfb8a[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2019-04-24 21:10:31.755; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1556133031744} status=0 QTime=4 
+INFO  - 2019-04-24 21:10:31.821; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133031806} status=0 QTime=11 
+INFO  - 2019-04-24 21:10:39.000; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133038995} status=0 QTime=1 
+INFO  - 2019-04-24 21:10:39.648; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133039643} status=0 QTime=1 
+INFO  - 2019-04-24 21:10:39.913; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133039908} status=0 QTime=1 
+INFO  - 2019-04-24 21:10:40.111; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133040107} status=0 QTime=0 
+INFO  - 2019-04-24 21:10:40.311; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133040307} status=0 QTime=1 
+INFO  - 2019-04-24 21:10:40.503; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133040499} status=0 QTime=1 
+INFO  - 2019-04-24 21:10:40.687; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556133040683} status=0 QTime=1 
+INFO  - 2019-04-24 21:10:59.302; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1556133059294} status=0 QTime=2 
+INFO  - 2019-04-24 21:11:06.999; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556133066991} status=0 QTime=4 
+INFO  - 2019-04-24 21:11:07.047; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556133067038} status=0 QTime=0 
+INFO  - 2019-04-24 22:21:33.700; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1556137293690
+INFO  - 2019-04-24 22:21:33.710; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog\'
+ERROR - 2019-04-24 22:21:33.744; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog\conf\solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2019-04-24 22:21:33.757; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2019-04-24 22:21:33.770; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1556137293690} status=400 QTime=75 
+INFO  - 2019-04-24 22:22:28.306; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1556137348303
+INFO  - 2019-04-24 22:22:28.308; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog\'
+ERROR - 2019-04-24 22:22:28.327; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog\conf\solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2019-04-24 22:22:28.332; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog\conf\solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2019-04-24 22:22:28.341; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1556137348303} status=400 QTime=35 
+INFO  - 2019-04-24 22:22:41.979; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1556137361976
+INFO  - 2019-04-24 22:22:41.983; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog\'
+INFO  - 2019-04-24 22:22:42.019; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 3.6.0
+INFO  - 2019-04-24 22:22:42.038; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2019-04-24 22:22:42.039; org.apache.solr.schema.IndexSchema; Reading Solr Schema from solr/blog\conf\schema.xml
+INFO  - 2019-04-24 22:22:42.045; org.apache.solr.schema.IndexSchema; [blog] Schema name=default
+WARN  - 2019-04-24 22:22:42.050; org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2019-04-24 22:22:42.052; org.apache.solr.core.CoreContainer; Creating SolrCore 'blog' using configuration from instancedir solr/blog\
+INFO  - 2019-04-24 22:22:42.053; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2019-04-24 22:22:42.056; org.apache.solr.core.SolrCore; [blog] Opening new SolrCore at solr/blog\, dataDir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\
+INFO  - 2019-04-24 22:22:42.056; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: blog
+INFO  - 2019-04-24 22:22:42.058; org.apache.solr.core.CachingDirectoryFactory; return new directory for D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data
+INFO  - 2019-04-24 22:22:42.061; org.apache.solr.core.SolrCore; New index directory detected: old=null new=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index/
+WARN  - 2019-04-24 22:22:42.063; org.apache.solr.core.SolrCore; [blog] Solr index directory 'D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index' doesn't exist. Creating new index...
+INFO  - 2019-04-24 22:22:42.065; org.apache.solr.core.CachingDirectoryFactory; return new directory for D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index
+INFO  - 2019-04-24 22:22:42.208; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-24 22:22:42.208; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-24 22:22:42.222; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2019-04-24 22:22:42.225; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 22:22:42.227; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 22:22:42.230; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 22:22:42.231; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 22:22:42.238; org.apache.solr.core.RequestHandlers; created /select: solr.StandardRequestHandler
+WARN  - 2019-04-24 22:22:42.241; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-24 22:22:42.242; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2019-04-24 22:22:42.244; org.apache.solr.core.RequestHandlers; created /admin: solr.admin.AdminHandlers
+INFO  - 2019-04-24 22:22:42.245; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2019-04-24 22:22:42.250; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 22:22:42.253; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 22:22:42.255; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 22:22:42.256; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 22:22:42.258; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-24 22:22:42.261; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2019-04-24 22:22:42.262; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2019-04-24 22:22:42.268; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-24 22:22:42.269; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-24 22:22:42.273; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@726a59d1[blog] main
+INFO  - 2019-04-24 22:22:42.276; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf
+INFO  - 2019-04-24 22:22:42.277; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf}
+INFO  - 2019-04-24 22:22:42.279; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf
+WARN  - 2019-04-24 22:22:42.280; org.apache.solr.rest.ManagedResource; No stored data found for /rest/managed
+INFO  - 2019-04-24 22:22:42.292; org.apache.solr.rest.ManagedResourceStorage$JsonStorage; Saved JSON object to path _rest_managed.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf
+INFO  - 2019-04-24 22:22:42.292; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2019-04-24 22:22:46.820; org.apache.solr.core.CoreContainer; registering core: blog
+INFO  - 2019-04-24 22:22:46.820; org.apache.solr.core.SolrCore; [blog] Registered new searcher Searcher@726a59d1[blog] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2019-04-24 22:22:46.839; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1556137361976} status=0 QTime=4861 
+INFO  - 2019-04-24 22:22:46.852; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556137366846} status=0 QTime=5 
+INFO  - 2019-04-24 22:22:50.156; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556137370152} status=0 QTime=2 
+INFO  - 2019-04-24 22:22:52.653; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556137372649} status=0 QTime=2 
+INFO  - 2019-04-24 22:22:54.398; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556137374393} status=0 QTime=2 
+INFO  - 2019-04-25 18:32:47.624; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556209967593} status=0 QTime=16 
+INFO  - 2019-04-25 18:32:48.090; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556209968086} status=0 QTime=2 
+INFO  - 2019-04-25 18:32:48.839; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog\'
+INFO  - 2019-04-25 18:32:48.881; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 3.6.0
+INFO  - 2019-04-25 18:32:48.907; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2019-04-25 18:32:48.908; org.apache.solr.schema.IndexSchema; Reading Solr Schema from solr/blog\conf\schema.xml
+INFO  - 2019-04-25 18:32:48.933; org.apache.solr.schema.IndexSchema; [blog] Schema name=default
+WARN  - 2019-04-25 18:32:49.006; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableIntField]. Please consult documentation how to replace it accordingly.
+WARN  - 2019-04-25 18:32:49.015; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableLongField]. Please consult documentation how to replace it accordingly.
+WARN  - 2019-04-25 18:32:49.020; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableFloatField]. Please consult documentation how to replace it accordingly.
+WARN  - 2019-04-25 18:32:49.028; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableDoubleField]. Please consult documentation how to replace it accordingly.
+WARN  - 2019-04-25 18:32:49.068; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.069; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.073; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.076; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.078; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.081; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.084; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.087; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.088; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.089; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.094; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.097; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.098; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.099; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.102; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.105; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.108; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.108; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.109; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.110; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.113; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.122; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.124; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.129; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.132; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.132; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.173; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.173; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.175; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.180; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.181; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.181; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2019-04-25 18:32:49.182; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+INFO  - 2019-04-25 18:32:49.189; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2019-04-25 18:32:49.189; org.apache.solr.schema.IndexSchema; query parser default operator is AND
+INFO  - 2019-04-25 18:32:49.190; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2019-04-25 18:32:49.199; org.apache.solr.core.CoreContainer; Reloading SolrCore 'blog' using configuration from instancedir solr/blog\
+INFO  - 2019-04-25 18:32:49.202; org.apache.solr.core.SolrCore; [blog] Opening new SolrCore at solr/blog\, dataDir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\
+INFO  - 2019-04-25 18:32:49.202; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: blog
+INFO  - 2019-04-25 18:32:49.203; org.apache.solr.core.SolrCore; New index directory detected: old=null new=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index/
+INFO  - 2019-04-25 18:32:49.205; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2019-04-25 18:32:49.206; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-25 18:32:49.206; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-25 18:32:49.209; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-25 18:32:49.212; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-25 18:32:49.213; org.apache.solr.core.RequestHandlers; created /select: solr.StandardRequestHandler
+WARN  - 2019-04-25 18:32:49.214; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2019-04-25 18:32:49.214; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2019-04-25 18:32:49.215; org.apache.solr.core.RequestHandlers; created /admin: solr.admin.AdminHandlers
+INFO  - 2019-04-25 18:32:49.216; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2019-04-25 18:32:49.217; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-25 18:32:49.224; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-25 18:32:49.225; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-25 18:32:49.226; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-25 18:32:49.227; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-25 18:32:49.231; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2019-04-25 18:32:49.231; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2019-04-25 18:32:49.235; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@7185bb0e[blog] main
+INFO  - 2019-04-25 18:32:49.236; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf
+INFO  - 2019-04-25 18:32:49.236; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf}
+INFO  - 2019-04-25 18:32:49.237; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf
+INFO  - 2019-04-25 18:32:49.246; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf
+INFO  - 2019-04-25 18:32:49.246; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2019-04-25 18:32:49.247; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2019-04-25 18:32:53.770; org.apache.solr.update.DefaultSolrCoreState; Creating new IndexWriter...
+INFO  - 2019-04-25 18:32:53.770; org.apache.solr.core.SolrCore; [blog] Registered new searcher Searcher@7185bb0e[blog] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2019-04-25 18:32:53.771; org.apache.solr.update.DefaultSolrCoreState; Waiting until IndexWriter is unused... core=blog
+INFO  - 2019-04-25 18:32:53.776; org.apache.solr.update.DefaultSolrCoreState; Closing old IndexWriter... core=blog
+INFO  - 2019-04-25 18:32:53.791; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-25 18:32:53.791; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-25 18:32:53.795; org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2019-04-25 18:32:53.799; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@31e5d9a3[blog] main
+INFO  - 2019-04-25 18:32:53.800; org.apache.solr.core.CoreContainer; replacing core: blog
+INFO  - 2019-04-25 18:32:53.800; org.apache.solr.core.SolrCore; [blog]  CLOSING SolrCore org.apache.solr.core.SolrCore@4da91f43
+INFO  - 2019-04-25 18:32:53.801; org.apache.solr.core.SolrCore; [blog] Registered new searcher Searcher@31e5d9a3[blog] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2019-04-25 18:32:53.801; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2019-04-25 18:32:53.803; org.apache.solr.core.SolrCore; [blog] Closing main searcher on request.
+INFO  - 2019-04-25 18:32:53.806; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={core=blog&action=RELOAD&wt=json&_=1556209968836} status=0 QTime=4967 
+INFO  - 2019-04-25 18:32:53.817; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556209973813} status=0 QTime=1 
+INFO  - 2019-04-25 18:33:09.282; org.apache.solr.update.DirectUpdateHandler2; [blog] REMOVING ALL DOCUMENTS FROM INDEX
+INFO  - 2019-04-25 18:33:09.299; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2019-04-25 18:33:09.384; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+INFO  - 2019-04-25 18:33:09.384; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2019-04-25 18:33:09.392; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4341365d[blog] main
+INFO  - 2019-04-25 18:33:09.392; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2019-04-25 18:33:09.392; org.apache.solr.core.SolrCore; [blog] Registered new searcher Searcher@4341365d[blog] main{StandardDirectoryReader(segments_1:2:nrt)}
+INFO  - 2019-04-25 18:33:09.394; org.apache.solr.update.processor.LogUpdateProcessor; [blog] webapp=/solr path=/update/ params={commit=true} {deleteByQuery=*:*,commit=} 0 159
+INFO  - 2019-04-25 18:33:09.402; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2019-04-25 18:33:09.403; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2019-04-25 18:33:09.404; org.apache.solr.core.SolrCore; SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+INFO  - 2019-04-25 18:33:09.404; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2019-04-25 18:33:09.405; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2019-04-25 18:33:09.406; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2019-04-25 18:33:09.407; org.apache.solr.core.SolrCore; SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+INFO  - 2019-04-25 18:33:09.409; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2019-04-25 18:33:09.412; org.apache.solr.update.processor.LogUpdateProcessor; [blog] webapp=/solr path=/update/ params={commit=true} {optimize=,commit=} 0 10
+INFO  - 2019-04-25 18:33:09.571; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2019-04-25 18:33:09.829; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index lockFactory=NativeFSLockFactory@D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\data\index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+INFO  - 2019-04-25 18:33:09.833; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 3
+INFO  - 2019-04-25 18:33:09.870; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3626de5c[blog] main
+INFO  - 2019-04-25 18:33:09.870; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2019-04-25 18:33:09.871; org.apache.solr.core.SolrCore; [blog] Registered new searcher Searcher@3626de5c[blog] main{StandardDirectoryReader(segments_1:4:nrt _0(4.10.4):C4)}
+INFO  - 2019-04-25 18:33:09.876; org.apache.solr.update.processor.LogUpdateProcessor; [blog] webapp=/solr path=/update/ params={commit=true} {add=[blog.post.7, blog.post.8, blog.post.11, blog.post.12],commit=} 0 427
+INFO  - 2019-04-25 18:33:30.425; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1556210010421} status=0 QTime=0 
+INFO  - 2019-04-25 18:33:30.473; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556210010462} status=0 QTime=8 
+INFO  - 2019-04-25 18:33:30.506; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210010498} status=0 QTime=6 
+INFO  - 2019-04-25 18:43:05.620; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1556210585616} status=0 QTime=0 
+INFO  - 2019-04-25 18:43:05.665; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1556210585661} status=0 QTime=1 
+INFO  - 2019-04-25 18:43:05.694; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210585689} status=0 QTime=3 
+INFO  - 2019-04-25 18:43:09.570; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/properties params={wt=json&_=1556210589564} status=0 QTime=3 
+INFO  - 2019-04-25 18:43:10.430; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/threads params={wt=json&_=1556210590405} status=0 QTime=21 
+INFO  - 2019-04-25 18:43:11.758; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1556210591717} status=0 QTime=38 
+INFO  - 2019-04-25 18:43:13.677; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210593672} status=0 QTime=2 
+INFO  - 2019-04-25 18:43:13.700; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210593694} status=0 QTime=4 
+INFO  - 2019-04-25 18:43:32.197; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210612192} status=0 QTime=3 
+INFO  - 2019-04-25 18:43:32.906; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210612903} status=0 QTime=2 
+INFO  - 2019-04-25 18:43:39.251; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1556210619246} status=0 QTime=2 
+INFO  - 2019-04-25 18:43:40.605; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210620600} status=0 QTime=4 
+INFO  - 2019-04-25 18:43:40.627; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556210620623} status=0 QTime=2 
+ERROR - 2019-04-25 18:43:43.208; org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-bottom.html [D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf\admin-extra.menu-bottom.html]
+INFO  - 2019-04-25 18:43:43.209; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1556210623133} status=404 QTime=67 
+ERROR - 2019-04-25 18:43:43.208; org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-top.html [D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf\admin-extra.menu-top.html]
+INFO  - 2019-04-25 18:43:43.219; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1556210623129} status=404 QTime=78 
+INFO  - 2019-04-25 18:43:43.241; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/admin/system params={wt=json&_=1556210623235} status=0 QTime=2 
+INFO  - 2019-04-25 18:43:43.245; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1556210623214} status=0 QTime=12 
+ERROR - 2019-04-25 18:43:43.252; org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [D:\Materials\Python\djangoProject\solr-4.10.4\example\solr\blog\conf\admin-extra.html]
+INFO  - 2019-04-25 18:43:43.253; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1556210623242} status=404 QTime=1 
+INFO  - 2019-04-25 18:43:43.262; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1556210623254} status=503 QTime=2 
+INFO  - 2019-04-25 18:43:54.043; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1556210634005} hits=4 status=0 QTime=34 
+INFO  - 2019-04-25 18:44:14.815; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select params={q=q*&indent=true&wt=json&_=1556210653927} hits=1 status=0 QTime=885 
+INFO  - 2019-04-25 18:44:24.074; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select params={q=*&indent=true&wt=json&_=1556210664071} hits=4 status=0 QTime=1 
+INFO  - 2019-04-25 19:32:35.470; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=84 
+INFO  - 2019-04-25 19:32:35.503; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:32:40.851; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=3 
+INFO  - 2019-04-25 19:32:40.871; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:33:34.371; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(q)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=4 
+INFO  - 2019-04-25 19:33:34.388; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(q)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:34:17.157; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(q)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:34:20.934; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(ww)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=0 status=0 QTime=4 
+INFO  - 2019-04-25 19:34:24.679; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(ost)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2019-04-25 19:34:28.174; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:34:51.850; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=3 
+INFO  - 2019-04-25 19:34:51.865; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:34:54.846; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:34:54.860; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:36:12.772; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(dsdscs)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=0 status=0 QTime=3 
+INFO  - 2019-04-25 19:36:15.903; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(wew)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=0 status=0 QTime=2 
+INFO  - 2019-04-25 19:36:20.879; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:36:20.894; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:36:43.633; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=3 
+INFO  - 2019-04-25 19:36:43.647; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:36:48.027; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:36:48.042; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:40:25.801; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:40:25.818; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:56:27.415; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 19:56:27.431; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:59:24.400; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 19:59:24.436; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:00:05.072; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:00:05.087; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:00:09.704; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(q)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:00:09.720; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(q)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:00:22.759; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:00:22.774; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:00:36.919; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=3 
+INFO  - 2019-04-25 20:00:36.933; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:01:27.998; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(ds)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2019-04-25 20:01:37.046; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:01:37.092; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:01:53.727; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:01:53.757; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:11:19.632; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:11:19.655; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:11:27.654; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:11:27.687; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=2 
+INFO  - 2019-04-25 20:11:39.110; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=1&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:11:39.139; org.apache.solr.core.SolrCore; [blog] webapp=/solr path=/select/ params={q=(post)&fl=*+score&start=0&fq=django_ct:(blog.post)&rows=10&wt=json} hits=1 status=0 QTime=1 
+INFO  - 2019-04-25 20:12:26.253; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556215946241} status=0 QTime=10 
+INFO  - 2019-04-25 20:12:26.282; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1556215946275} status=0 QTime=3 

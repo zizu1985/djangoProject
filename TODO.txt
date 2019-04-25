@@ -2,3 +2,14 @@ TODO
 DONE - 1. Zapisywanie informacje o polecenaych postach. Dodanie licznika o informacji ile razy post był już sharowany.
 DONE - 2. Dodawanie tagow do posta.
 NEXT - 3. Retrieve posts by similarity.
+NEXT - 4. Adding search engine using Solr and Haystack
+
+    Below in Solr console means all posts have been successfully indexed.
+
+        lastModified:less than a minute ago
+        version:4
+        numDocs:4
+        maxDoc:4
+
+PROBLEMS
+    1. Dlaczego template zwraca exception StopIterator przy przetwarzaniu petli
